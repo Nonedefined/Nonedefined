@@ -1,51 +1,67 @@
-<!--
-  README.md for GitHub profile
--->
+# Yuri Volosheniuk  
+### Senior AI & Backend Engineer  
 
-# 👋 Hi, I’m Yurii Volosheniuk
-
-**Senior Backend Engineer** with 6+ years of experience designing and scaling distributed systems for data-intensive SaaS platforms. I specialize in:
-
-- **Microservices & APIs** (Flask, FastAPI, Django, DRF, gRPC)  
-- **Data & Storage** (PostgreSQL, MariaDB, MongoDB, Redis, Elasticsearch)  
-- **Messaging & Streaming** (RabbitMQ, Celery, Kafka)  
-- **Cloud, Infra & CI/CD** (AWS, Docker, Terraform, GitHub Actions, Pytest)  
+I'm a Senior AI Engineer focused on production LLM agents, retrieval pipelines, and scalable backend systems. I build reliable, production-ready AI features by combining strong backend engineering with modern LLM workflows.
 
 ---
 
-## 💼 Experience
+## Tech Stack
 
-### Weka • Senior Backend Engineer  
-*Jan 2023 – Present (Silicon Valley)*  
-- Designed a microservice (triggered by GitHub Actions) to analyze PR file diffs and run only affected tests → CI runtime ↓ 60 % (50 min → 20 min)  
-- Architected a Redis-based caching layer to reduce average API response time from 300 ms to 60 ms and cut database load by 30 %  
-- Led architecture review of an event-driven Test Execution Tracker (AWS SQS + Jira API) → defect triage time ↓ 50 % (2 d → 1 d)  
-- Mentored two junior engineers, accelerating onboarding and improving overall team code quality  
+### **AI / LLM**
+- **LLM agents**, LangGraph, LangChain  
+- **RAG pipelines**, embedding workflows  
+- Vector databases: **Qdrant**, Pinecone, pgvector  
+- **LLM observability:** Langfuse  
+- Hugging Face
 
-### Innovecs • Backend Engineer  
-*Nov 2020 – Jan 2023*  
-- Built a subscription-based billing system from scratch → monthly paying users ↑ 33 % within three months  
-- Refactored performance-critical SQL queries → response times 5× faster (500 ms → 100 ms), DB load ↓ 45 %  
+### **Backend**
+- **Python**, FastAPI, Flask, Django  
+- PostgreSQL, Elasticsearch  
+- Redis, RabbitMQ, Kafka, Celery, Asyncio  
 
-### Eva • Software Engineer  
-*Oct 2019 – Nov 2020*  
-- Migrated a legacy product catalog service to microservice architecture → deployment time ↓ 60 %  
-- Implemented asynchronous order processing (RabbitMQ, Celery) → API timeouts ↓ 27 %  
+### **Infra / DevOps**
+- **AWS**, Docker, Terraform  
+- Grafana, Prometheus, Sentry  
+- CI/CD pipelines (GitHub Actions)
 
----
-
-## 🎓 Education
-
-**Kyiv Polytechnic Institute**  
-- BSc in Software Engineering, Jun 2023  
 
 ---
 
-## 📫 Contact
+## Experience (Highlights)
 
-- 📧 [volosheniukyura@gmail.com](mailto:volosheniukyura@gmail.com)  
-- 🌐 [LinkedIn](https://linkedin.com/in/yurii-volosheniuk)  
+### **Weka — Senior AI & Backend Engineer (Jan 2023 – Present)**
+- Built a **production LLM agent** for WekaFS to execute cluster operations over SSH with strict safety controls.  
+- Designed and shipped the **full retrieval pipeline** (ingestion, structured chunking, embeddings, Qdrant indexing, hybrid search).  
+- Developed a GitHub Actions–triggered microservice for **selective test execution**, reducing CI time **from 50 min to 20 min**.  
+- Worked across **Python**, LangChain, LangGraph, FastAPI, Qdrant, Terraform, AWS, Docker, Langfuse.
+
+### **Innovecs — Backend Engineer (Nov 2020 – Jan 2023)**
+- Built a **subscription-based billing platform** enabling transition to recurring revenue.  
+- Implemented a **KYC / AML verification flow** for a crypto exchange, integrating external identity providers.  
+- Technologies: Python, AWS, Kafka, PostgreSQL, Elasticsearch, Redis, Flask, Django.
+
+### **Eva — Backend Developer (Oct 2019 – Nov 2020)**
+- Contributed to backend services using Python, Django, Celery, Redis, RabbitMQ, PostgreSQL.
 
 ---
 
-> “Building reliable backend systems that scale—one service at a time.” 🚀
+## Featured Projects
+
+### **WekaFS LLM Agent**
+Production LLM agent for orchestrating cluster operations over SSH.  
+**Tech:** Python, LangGraph, LangChain, FastAPI, Langfuse, AWS
+
+### **Retrieval Pipeline for AI Assistant**
+End-to-end RAG pipeline: ingestion, chunking, embeddings, vector indexing, hybrid search.  
+**Tech:** Qdrant, Pinecone, PostgreSQL, Hugging Face
+
+### **CI Optimization via Selective Testing**
+Microservice reducing CI pipeline runtime via PR-diff–based test selection.  
+**Tech:** Python, GitHub Actions, Terraform, Docker
+
+---
+
+## Contact
+
+- **LinkedIn:** https://linkedin.com/  
+- **Email:** volosheniukyura@gmail.com  
